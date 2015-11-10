@@ -97,7 +97,7 @@ function generateAppLogos() {
 		var newLink = document.createElement('a');
 		var newImg = document.createElement('img');
 		newDiv.setAttribute('id',key);
-		newDiv.className += "col-xs-2" + " col-lg-3" + " supporter";
+		newDiv.className += "col-xs-6" + " col-lg-3" + " appIcon";
 		newLink.href = app["href"];
 		newLink.target = "_blank";
 		newImg.className += " img-responsive";
