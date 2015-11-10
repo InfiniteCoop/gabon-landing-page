@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical tool for understanding and working within Gabon's forest sector">
+  <meta name="author" content="Gabon Ministry of Forest, Environment, and Natural Resource Protection">
+
+  <title>Interactive Forest Atlas of Gabon</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Social Share Kit CSS -->
+  <link href="css/social-share-kit.css" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&amp;subset=latin" media="all">
+
+<!-- Google Analytics tracking code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62288390-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+      </head>
+
+      <body>
+
+        <!-- Header Section-->
+        <header class="intro" id="intro">
+          <div class="intro-body container">
+            <div class="row">
+              <div id="flag" class="col-xs-1 col-xs-offset-11 pull-right flag">
+                <!-- FLAG GOES HERE -->
+              </div>
+            </div>
+            <div class="row lang-button text-right">
+              <button type="button" class="btn btn-default" onclick="langtoggle('en')" id="EngButton"></button>
+              <button type="button" class="btn btn-default" onclick="langtoggle('fr')" id="FrButton"></button>
+            </div>
+            <div class="row title-background">
+              <div class="col-md-10 col-md-offset-1">
+                <h1 class="brand-heading" id="Title"></h1>
+                <div class="subtitle-text">
+                  <p class="intro-text" id="SubTitle" ></p>
+                </div>
+              </div>
+            </div>
+
+            <!-------- MODULE ICONS -------->
+            <div class="container content-section">
+              <div class="row center" >
+                <div class="col-md-4">
+                  <a href="" id="mapLink">
+                   <img src="img/map-icon.svg" id="map-icon" alt="Explore the Map" class="img-responsive module-icon">
+                   <h3 id="Module1"></h3>
+                 </a>
+               </div>
+               <div class="col-md-4">
+                <a href="" id="planLink">
+                 <img src="img/plan-icon.svg" id="plan-icon" alt="Download the Data" class="img-responsive module-icon">
+                 <h3 id="Module2"></h3>
+               </a>
+             </div>
+             <div class="col-md-4"> 
+              <a id="docsLink">
+                <img src="img/docs-icon.svg" id="docs-icon" alt="Analyze the Data" class="img-responsive module-icon">
+                <h3 id="Module3"></h3>
+              </a>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pull-left">
+        <a class="copyright" target="_blank" href="http://www.jbdodane.com/">Photo © jbdodane.com</a>
+      </div> 
+    </header> 
+
+    <!-- About the Atlas Section -->
+    <section id="about" class="container content-section">
+      <div class="row bodyRow">
+        <h2 id="AboutTitle">
+          <!-- Insert title here -->
+        </h2>
+        <div id="AboutText">
+        </div>
+      </div>
+      <hr noshade>
+    </section>
+
+    <section id="apps-partners" class="container content-section">
+        <h4 class="row bodyRow" id="AppTitle"></h4>
+      <div class="row bodyRow" id="AppLogos">
+        <!--Insert supporter logos here -->
+        </div>
+      <h4 class="row bodyRow" id="PartnerTitle"></h4>
+      <div class="row bodyRow" id="PartnerLogos">
+        <!--Insert partner logos Here -->
+      </div>       
+        <hr noshade> 
+      </section>
+
+      <!-- Social Share Icons-->
+      <section id="social-share" class="container content-section text-center">
+        <h4 id="Share"></h4>
+        <div class="row">
+          <div class="ssk-group ssk-grayscale">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="" class="ssk ssk-pinterest"></a>
+            <a href="" class="ssk ssk-linkedin"></a>
+            <a href="" class="ssk ssk-tumblr"></a>
+            <a href="" class="ssk ssk-email"></a>
+          </div>
+        </div>
+        <br>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container text-center">
+<a class="footer-link" href="mailto:gfw@wri.org" id="ContactUs">
+          <!-- Insert footer link here-->
+        </a>
+      </div>
+    </footer>
+
+    <!--JS object containing all country-specific information-->
+    <script src="js/gab.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Social Share Kit JS -->
+    <script src="js/social-share-kit.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
+  </body>
+
+  </html>
