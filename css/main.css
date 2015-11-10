@@ -100,10 +100,12 @@ a:focus {
 .footerTitle {
     color: #000;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .footerText {
     color: #747474;
+    padding-bottom: 20px;
 }
 .footerText a {
     color: #000;
@@ -163,7 +165,7 @@ a:focus {
         padding-top: 20px;
     }
 
-    .supporter {
+    .appIcon {
         display: block;
     }
 }
@@ -183,6 +185,7 @@ a:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px 40px 0px 40px;
 }
 
 @media(min-width: 991px) {
