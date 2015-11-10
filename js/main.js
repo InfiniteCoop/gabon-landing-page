@@ -101,6 +101,7 @@ function generateAppLogos() {
 		newLink.href = app["href"];
 		newLink.target = "_blank";
 		newImg.className += " img-responsive";
+		newImg.setAttribute('id',key);
 		newImg.setAttribute('src',app["src"]);
 		newImg.setAttribute('alt',app["alt"]);
 		
@@ -111,11 +112,11 @@ function generateAppLogos() {
 		//Trigger hover events
 		newImg.addEventListener("mouseover", function(){
 			var divSource = $(this).closest('div').attr('id');
-			this.setAttribute('src', app[divSource]["srcActive"])}, false);
+			this.setAttribute('src', apps[divSource]["srcActive"])}, false);
 
 		newImg.addEventListener("mouseout", function(){
 			var divSource = $(this).closest('div').attr('id');
-			this.setAttribute('src', app[divSource]["src"])}, false);;
+			this.setAttribute('src', apps[divSource]["src"])}, false);
 }
 };
 

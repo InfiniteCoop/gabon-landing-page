@@ -8,7 +8,7 @@
         Module2: "Planning",
         Module3: "Documentation",
         AboutTitle: "About the Plan",
-        AboutText: "<p>The Interactive forest atlas of Gabon is a living, dynamic forest monitoring system that provides unbiased and up-to-date information on Gabon's forest sector. Built on a geographic information system (GIS) platform, the Atlas aims to strengthen forest management and land use planning by bringing information on all major land use categories onto the same standardized platform.</p><p>The underlying forest atlas database is supported and kept up-to-date by the Ministry of Forest, Environment, and Natural Resource Protection and the World Resources Institute (WRI), releasing new information as it becomes available via this <a class='bodyLink' href='http://www.gab.forest-atlas.org/map'>mapping application</a>. Other publications are released periodically and can be found in the <a class='bodyLink' href='http://gab-data.forest-atlas.org'>download section</a>.</p><p>The Interactive forest atlas of Gabon overcomes a key data challenge by integrating forest management classes with forest cover extent and change data from <a class='bodyLink' href='http://www.globalforestwatch.org/'>Global Forest Watch’s</a> near-real-time monitoring system. With a simple click, users can run complex analyses and explore the most up-to-date land cover changes within a variety of land allocations. To learn about the wide range of functionalities, visit the online tutorial.</p><p>Unless otherwise noted, Atlas data are licensed under a <a class='bodyLink' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made. When displaying and citing the data, use the appropriate credit as listed for the corresponding dataset in the <a class='bodyLink' href='http://gab-data.forest-atlas.org'>download section</a>.</p>",
+        AboutText: "<p>The National Land Use Plan (NLUP) is a planning process used by the government to establish and communicate guidelines for the sustainable management of state land and resources. The role of the NLUP is to provide guidance and assistance to each territory, with the aim of <b>highlighting the territory's resources, minimizing the risk of conflict between incompatible uses, and optimizing opportunities.</b></p><p>The interactive platform is used by those in charge of the implementation of the NTP at the policy level, but also at the technical level. The goal of the platform is to provide an interactive tool that links different actors across geographies.</p>",
         AppTitle: "Other applications",
         PartnerTitle: "A partnership between",
         Share: "Share this page",
@@ -57,22 +57,22 @@ var link = {
 
 var apps = {
     ageos: {
-        href: "http://globalforestwatch.org/",
-        src: "img/logo/gfw-logo-bw.png",
-        srcActive: "img/logo/gfw-logo.png",
-        alt: "GFW"
+        href: "http://www.ageos.ga/plateforme/",
+        src: "img/logo/ageos-logo-bw.png",
+        srcActive: "img/logo/ageos-logo.png",
+        alt: "AGEOS"
     },
     climat: {
-        href: "http://www.usaid.gov/",
-        src: "img/logo/gfw-logo-bw.png",
-        srcActive: "img/logo/gfw-logo.png",
-        alt: "USAID"
+        href: "http://www.gouvernement.ga/",
+        src: "img/logo/climat-logo-bw.png",
+        srcActive: "img/logo/climat-logo.png",
+        alt: "Climat"
     },
     forestAtlas: {
-        href: "http://carpe.umd.edu/",
-        src: "img/logo/gfw-logo-bw.png",
-        srcActive: "img/logo/gfw-logo.png",
-        alt: "CARPE"
+        href: "http://gab.atlas-forestier.org/",
+        src: "img/logo/forestAtlas-logo-bw.png",
+        srcActive: "img/logo/forestAtlas-logo.png",
+        alt: "Atlas Forestier"
     },
     gfw: {
         href: "http://globalforestwatch.org/",
@@ -84,9 +84,9 @@ var apps = {
 
 var partners = {
     gabMin: {
-        href: "http://www.eaux-forets.gouv.ga/",
-        src: "img/logo/gab-logo.png",
-        alt: "Gabon Logo"
+        href: "http://www.ageos.ga/",
+        src: "img/logo/ageos-logo.png",
+        alt: "AGEOS Logo"
     },
     wri: {
         href: "http://www.wri.org/",
