@@ -97,8 +97,22 @@ a:focus {
     color: #f0ab00;
 }
 
-.footer-link {
+.footerTitle {
+    color: #000;
+    text-align: center;
+}
+
+.footerText {
     color: #747474;
+}
+.footerText a {
+    color: #000;
+
+}
+
+.footerText a:hover,
+.footerText a:focus {
+    color: #f0ab00;
 }
 
 .light {

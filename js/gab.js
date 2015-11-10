@@ -12,7 +12,10 @@
         AppTitle: "Other applications",
         PartnerTitle: "A partnership between",
         Share: "Share this page",
-        ContactUs: "Contact us"
+        ContactUs: "Contact us",
+        Contact1: "<p>Ghislain Moussavou</p><p><i>Gabon National Coordinator, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
+        Contact2: "<p>Matthew Steil</p><p><i>Manager, Central Africa Forests, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>"
+
     },
     
     fr: {
@@ -28,7 +31,9 @@
         AppTitle: "Autres applications",
         PartnerTitle: "Un partenariat entre",
         Share: "Partager",
-        ContactUs: "Contactez-nous"   
+        ContactUs: "Contactez-nous",
+        Contact1: "<p>Ghislain Moussavou</p><p><i>Coordinateur National du Gabon, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
+        Contact2: "<p>Matthew Steil</p><p><i>Gestionnaire, Forêts d'Afrique Centrale, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>"
     }
 }
 
