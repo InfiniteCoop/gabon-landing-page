@@ -121,7 +121,7 @@ a:focus {
     font-weight: 400;
 }
 
-.intro, .bcg {
+/*.intro, .bcg {
     display: table;
     width: 100%;
     height: auto;
@@ -133,14 +133,26 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}*/
+
+/*.intro {
+    background-image: url("../img/title-bg.jpg");
+}*/
+
+.intro-body {
+    top: 10%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
 }
 
-.intro .intro-body .brand-heading {
+.intro-body .brand-heading {
     text-shadow: 1px 1px 1px #747474;
     font-size: 32px;
 }
 
-.intro .intro-body .intro-text {
+.intro-body .intro-text {
     font-size: 24px;
     text-shadow: 1px 1px 1px #747474;
     text-align: center;
@@ -171,6 +183,7 @@ a:focus {
 }
 
 .content-section {
+    position: relative;
     padding: 20px 0px;
 }   
 
@@ -294,4 +307,57 @@ body {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  width:100%;
+  height: 100%;
+  position: absolute;
+      background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.item:nth-child(1) {
+  background-image: url(../img/title-bg.jpg);
+}
+.item:nth-child(2) {
+  background-image: url(../img/title-bg-2.jpg);
+}
+.item:nth-child(3) {
+  background-image: url(../img/title-bg-3.jpg);
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
 }
