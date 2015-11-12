@@ -148,10 +148,14 @@ function generatePartnerLogos() {
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
 	generateFlag();
-	generateBcgImg();
+	// generateBcgImg();
 	iconHover();
 	generateAppLogos();
 	generatePartnerLogos();
 }, false);
 
 SocialShareKit.init();
+
+$('.carousel').carousel({
+	interval: 3000
+});

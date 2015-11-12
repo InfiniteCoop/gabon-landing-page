@@ -41,7 +41,7 @@ h3 {
         display: block;
     }
 
-    .intro .intro-body .brand-heading {
+    .intro-body .brand-heading {
         font-size: 60px;
     }
 
@@ -121,7 +121,7 @@ a:focus {
     font-weight: 400;
 }
 
-.intro, .bcg {
+/*.intro, .bcg {
     display: table;
     width: 100%;
     height: auto;
@@ -133,76 +133,89 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+    }*/
 
-.intro .intro-body .brand-heading {
-    text-shadow: 1px 1px 1px #747474;
-    font-size: 32px;
-}
+/*.intro {
+    background-image: url("../img/title-bg.jpg");
+    }*/
 
-.intro .intro-body .intro-text {
-    font-size: 24px;
-    text-shadow: 1px 1px 1px #747474;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.lang-button {
-    padding: 15px 0px;
-}
-
-@media(min-width:767px) {
-    .intro, .bcg {
-        width: 100%;
-        height: auto;
+    .intro-body {
+        top: 10%;
+        position: relative;
+        text-align: center;
+        padding-top: 20px;
+        color: #fff;
     }
 
-    .intro .intro-body .intro-text {
-        font-size: 22px;
+    .intro-body .brand-heading {
+        text-shadow: 1px 1px 1px #747474;
+        font-size: 32px;
+    }
+
+    .intro-body .intro-text {
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #747474;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lang-button {
+        padding: 15px 0px;
+    }
+
+    @media(min-width:767px) {
+        .intro, .bcg {
+            width: 100%;
+            height: auto;
+        }
+
+        .intro .intro-body .intro-text {
+            font-size: 22px;
+        }
+
+        .content-section {
+            padding-top: 20px;
+        }
+
+        .appIcon {
+            display: block;
+        }
     }
 
     .content-section {
-        padding-top: 20px;
+        position: relative;
+        padding: 20px 0px;
+    }   
+
+    @media(min-width: 767px) {
+        .bodyRow {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
     }
 
-    .appIcon {
-        display: block;
-    }
-}
-
-.content-section {
-    padding: 20px 0px;
-}   
-
-@media(min-width: 767px) {
-    .bodyRow {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
-.module-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px 40px 0px 40px;
-}
-
-@media(min-width: 991px) {
     .module-icon {
-        padding: 40px 80px 10px 80px;
-    }
-
-}
-.inactive {
-    display: none;
-}
-
-@media(min-width:767px) {
-    .inactive {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px 40px 0px 40px;
     }
-}
+
+    @media(min-width: 991px) {
+        .module-icon {
+            padding: 40px 80px 10px 80px;
+        }
+
+    }
+    .inactive {
+        display: none;
+    }
+
+    @media(min-width:767px) {
+        .inactive {
+            display: block;
+        }
+    }
 
 /*@media(min-width: @screen-lg-min) {
     .intro {
@@ -294,4 +307,61 @@ body {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  width:100%;
+  height: 100%;
+  position: absolute;
+  background-attachment: fixed;
+  background-position-y: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.item:nth-child(1) {
+  background-image: url(../img/title-bg.jpg);
+}
+.item:nth-child(2) {
+  background-image: url(../img/title-bg-4.jpg);
+}
+.item:nth-child(3) {
+  background-image: url(../img/title-bg-7.jpg);
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
 }
