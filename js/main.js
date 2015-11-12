@@ -148,7 +148,7 @@ function generatePartnerLogos() {
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
 	generateFlag();
-	// generateBcgImg();
+	generateBcgImg();
 	iconHover();
 	generateAppLogos();
 	generatePartnerLogos();

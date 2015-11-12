@@ -75,8 +75,8 @@ var apps = {
     },
     forestAtlas: {
         href: "http://gab.atlas-forestier.org/",
-        src: "img/logo/forestAtlas-logo-bw.png",
-        srcActive: "img/logo/forestAtlas-logo.png",
+        src: "img/logo/forestatlas-logo-bw.png",
+        srcActive: "img/logo/forestatlas-logo.png",
         alt: "Atlas Forestier"
     },
     gfw: {
