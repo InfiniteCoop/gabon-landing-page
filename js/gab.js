@@ -8,7 +8,7 @@
         Module2: "Planning",
         Module3: "Documentation",
         AboutTitle: "About the Plan",
-        AboutText: "<p>The National Land Use Plan (NLUP) is a planning process used by the government to establish and communicate guidelines for the sustainable management of state land and resources. The role of the NLUP is to provide guidance and assistance to each territory, with the aim of <b>highlighting the territory's resources, minimizing the risk of conflict between incompatible uses, and optimizing opportunities.</b></p><p>The interactive platform is used by those in charge of the implementation of the NTP at the policy level, but also at the technical level. The goal of the platform is to provide an interactive tool that links different actors across geographies.</p>",
+        AboutText: "<p>The National Land Use Plan of Gabon is a legislative framework that establishes and communicates guidelines for the sustainable management of Gabonese land and resources. By <b>identifying and appraising local resources, the Plan is able to minimize the risk of land use conflicts, and maximize opportunities for efficient and sustainable multi-use extraction and development.</b></p><p>The interactive platform is used by policymakers, strategic planners, business leaders, engineers, and developers, and allows a multitude of actors to participate in the land allocation process, regardless of their geographic location.</p>",
         AppTitle: "Other applications",
         PartnerTitle: "A partnership between",
         Share: "Share this page",
