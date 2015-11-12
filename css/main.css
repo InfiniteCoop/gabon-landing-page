@@ -239,21 +239,18 @@ body {
     margin: 10px 0px;
 }
 
-@media(min-width: 767px) {
 .flag {
-    display: block;
     align:right;
     padding: 0px;
     margin: 0px 0px 0px 0px;
 }
-}
 
-/*@media(max-width:767px) {
+@media(max-width:767px) {
     .flag {
         display: none;
     }
 }
-*/
+
 .btn {
     text-transform: uppercase;
     font-family: "Fira Sans",Helvetica,sans-serif;
