@@ -112,14 +112,20 @@ a:focus {
     width: 8%;
   }
 
+  .carousel-caption {
+    bottom: 20%;
+    left: 25%;
+    width: 30%;
+  }
+
   .item:nth-child(1) {
       background-image: url(../img/title-bg.jpg);
   }
   .item:nth-child(2) {
-      background-image: url(../img/title-bg-4.jpg);
+      background-image: url(../img/title-bg-3.jpg);
   }
   .item:nth-child(3) {
-      background-image: url(../img/title-bg-7.jpg);
+      background-image: url(../img/title-bg-2.jpg);
   }
 }
 

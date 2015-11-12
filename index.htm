@@ -46,141 +46,153 @@
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
-              <div class="active item"></div>
-              <div class="item"></div>
-              <div class="item"></div>
-            </div>
-            <!-- Carousel nav -->
-            <a class="carousel-control left" href="#carousel" data-slide="prev"></a>
-            <a class="carousel-control right" href="#carousel" data-slide="next"></a>
-          </div>
-
-
-
-
-          <div class="intro-body container">
-            <div class="row">
-              <div id="flag" class="col-xs-1 col-xs-offset-11 pull-right flag">
-                <!-- FLAG GOES HERE -->
-              </div>
-            </div>
-            <div class="row lang-button text-right">
-              <button type="button" class="btn btn-default" onclick="langtoggle('fr')" id="FrButton"></button>
-              <button type="button" class="btn btn-default" onclick="langtoggle('en')" id="EngButton"></button>             
-            </div>
-            <div class="row title-background">
-              <div class="col-md-10 col-md-offset-1">
-                <h1 class="brand-heading" id="Title"></h1>
-                <div class="subtitle-text">
-                  <p class="intro-text" id="SubTitle" ></p>
+              <div class="active item">
+                <div class="carousel-caption">
+                  <p class="h3" id="CaptionTitle1"></p>
+                  <p class="h4" id="Caption1"></p>
                 </div>
               </div>
+                <div class="item">
+                  <div class="carousel-caption">
+                    <p class="h3" id="CaptionTitle2"></p>
+                    <p class="h4" id="Caption2"></p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="carousel-caption">
+                    <p class="h3" id="CaptionTitle3"></p>
+                    <p class="h4" id="Caption3"></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#carousel" data-slide="prev"></a>
+              <a class="carousel-control right" href="#carousel" data-slide="next"></a>
             </div>
 
-            <!-------- MODULE ICONS -------->
-            <div class="container content-section">
-              <div class="row center" >
-                <div class="col-sm-4">
-                  <a href="" id="mapLink">
-                   <img src="img/map-icon.svg" id="map-icon" alt="Explore the Map" class="img-responsive module-icon">
-                   <h3 id="Module1"></h3>
+            <div class="intro-body container">
+              <div class="row">
+                <div id="flag" class="col-xs-1 col-xs-offset-11 pull-right flag">
+                  <!-- FLAG GOES HERE -->
+                </div>
+              </div>
+              <div class="row lang-button text-right">
+                <button type="button" class="btn btn-default" onclick="langtoggle('fr')" id="FrButton"></button>
+                <button type="button" class="btn btn-default" onclick="langtoggle('en')" id="EngButton"></button>             
+              </div>
+              <div class="row title-background">
+                <div class="col-md-10 col-md-offset-1">
+                  <h1 class="brand-heading" id="Title"></h1>
+                  <div class="subtitle-text">
+                    <p class="intro-text" id="SubTitle" ></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-------- MODULE ICONS -------->
+              <div class="container content-section">
+                <div class="row center" >
+                  <div class="col-sm-4">
+                    <a href="" id="mapLink">
+                     <img src="img/map-icon.svg" id="map-icon" alt="Explore the Map" class="img-responsive module-icon">
+                     <h3 id="Module1"></h3>
+                   </a>
+                 </div>
+                 <div class="col-sm-4">
+                  <a href="" id="planLink">
+                   <img src="img/plan-icon.svg" id="plan-icon" alt="Download the Data" class="img-responsive module-icon">
+                   <h3 id="Module2"></h3>
                  </a>
                </div>
-               <div class="col-sm-4">
-                <a href="" id="planLink">
-                 <img src="img/plan-icon.svg" id="plan-icon" alt="Download the Data" class="img-responsive module-icon">
-                 <h3 id="Module2"></h3>
-               </a>
-             </div>
-             <div class="col-sm-4"> 
-              <a id="docsLink">
-                <img src="img/docs-icon.svg" id="docs-icon" alt="Analyze the Data" class="img-responsive module-icon">
-                <h3 id="Module3"></h3>
-              </a>    
+               <div class="col-sm-4"> 
+                <a id="docsLink">
+                  <img src="img/docs-icon.svg" id="docs-icon" alt="Analyze the Data" class="img-responsive module-icon">
+                  <h3 id="Module3"></h3>
+                </a>    
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="pull-left">
-        <a class="copyright" target="_blank" href="http://www.jbdodane.com/">Photo © jbdodane.com</a>
-      </div> 
-    </header>
+        <div class="pull-left">
+          <a class="copyright" target="_blank" href="http://www.jbdodane.com/">Photo © jbdodane.com</a>
+        </div> 
+      </header>
 
-    <!-- About the Atlas Section -->
-    <section id="about" class="container content-section">
-      <div class="row bodyRow">
-        <h2 id="AboutTitle">
-          <!-- Insert title here -->
-        </h2>
-        <div id="AboutText">
+      <!-- About the Atlas Section -->
+      <section id="about" class="container content-section">
+        <div class="row bodyRow">
+          <h2 id="AboutTitle">
+            <!-- Insert title here -->
+          </h2>
+          <div id="AboutText">
+          </div>
         </div>
-      </div>
-      <hr noshade>
-    </section>
+        <hr noshade>
+      </section>
 
-    <section id="apps" class="container content-section">
-      <h4 class="row bodyRow" id="AppTitle"></h4>
-      <div class="row bodyRow" id="AppLogos">
-        <!--Insert app logos here -->
-      </div>
-      <hr noshade> 
-    </section>
-    <section id="partners" class="container content-section">
-      <h4 class="row bodyRow" id="PartnerTitle"></h4>
-      <div class="row bodyRow" id="PartnerLogos">
-        <!--Insert partner logos Here -->
-      </div>       
-      <hr noshade> 
-    </section>
-
-    <!-- Social Share Icons-->
-    <section id="social-share" class="container content-section text-center">
-      <h4 id="Share"></h4>
-      <div class="row">
-        <div class="ssk-group ssk-grayscale">
-          <a href="" class="ssk ssk-facebook"></a>
-          <a href="" class="ssk ssk-twitter"></a>
-          <a href="" class="ssk ssk-google-plus"></a>
-          <a href="" class="ssk ssk-pinterest"></a>
-          <a href="" class="ssk ssk-linkedin"></a>
-          <a href="" class="ssk ssk-tumblr"></a>
-          <a href="" class="ssk ssk-email"></a>
+      <section id="apps" class="container content-section">
+        <h4 class="row bodyRow" id="AppTitle"></h4>
+        <div class="row bodyRow" id="AppLogos">
+          <!--Insert app logos here -->
         </div>
-      </div>
-      <br>
-    </section>
+        <hr noshade> 
+      </section>
+      <section id="partners" class="container content-section">
+        <h4 class="row bodyRow" id="PartnerTitle"></h4>
+        <div class="row bodyRow" id="PartnerLogos">
+          <!--Insert partner logos Here -->
+        </div>       
+        <hr noshade> 
+      </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <p class="footerTitle" id="ContactUs"></p>
+      <!-- Social Share Icons-->
+      <section id="social-share" class="container content-section text-center">
+        <h4 id="Share"></h4>
         <div class="row">
-          <div class="col-sm-4 col-sm-offset-2 footerText" id="Contact1">
-          </div>
-          <div class="col-sm-4 col-sm-offset-1 footerText" id="Contact2">
+          <div class="ssk-group ssk-grayscale">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="" class="ssk ssk-pinterest"></a>
+            <a href="" class="ssk ssk-linkedin"></a>
+            <a href="" class="ssk ssk-tumblr"></a>
+            <a href="" class="ssk ssk-email"></a>
           </div>
         </div>
-      </div>
-    </footer>
+        <br>
+      </section>
 
-    <!--JS object containing all country-specific information-->
-    <script src="js/gab.js"></script>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <p class="footerTitle" id="ContactUs"></p>
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-2 footerText" id="Contact1">
+            </div>
+            <div class="col-sm-4 col-sm-offset-1 footerText" id="Contact2">
+            </div>
+          </div>
+        </div>
+      </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+      <!--JS object containing all country-specific information-->
+      <script src="js/gab.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
 
-    <!-- Social Share Kit JS -->
-    <script src="js/social-share-kit.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript -->
-    <script src="js/main.js"></script>
+      <!-- Social Share Kit JS -->
+      <script src="js/social-share-kit.js"></script>
 
-  </body>
+      <!-- Custom JavaScript -->
+      <script src="js/main.js"></script>
 
-  </html>
+    </body>
+
+    </html>
