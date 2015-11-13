@@ -113,9 +113,8 @@ a:focus {
   }
 
   .carousel-caption {
-    bottom: 20%;
     left: 25%;
-    width: 30%;
+    width: 100%;
   }
 
   .item:nth-child(1) {
@@ -209,12 +208,12 @@ a:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 60px 0px 60px;
+    padding: 10px 60px 0px 60px;
 }
 
 @media(min-width: 991px) {
     .module-icon {
-        padding: 40px 80px 10px 80px;
+        padding: 10px 80px 10px 80px;
     }
 }
 
