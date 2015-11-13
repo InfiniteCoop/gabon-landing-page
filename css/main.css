@@ -116,12 +116,6 @@ a:focus {
     width: 100%;
   }
 
-/*  @media screen and (min-width: 768px) {
-    .carousel-caption {
-      left:20%;
-    }
-  }
-*/
   .item:nth-child(1) {
       background-image: url(../img/title-bg.jpg);
   }
@@ -213,12 +207,12 @@ a:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 60px 0px 60px;
+    padding: 10px 80px;
 }
 
 @media(min-width: 991px) {
     .module-icon {
-        padding: 10px 80px 10px 80px;
+        padding: 10px 100px;
     }
 }
 
