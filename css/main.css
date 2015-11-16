@@ -205,7 +205,7 @@ a:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 80px;
+    padding: 10px 80px 0px 80px;
 }
 
 @media(min-width: 991px) {
@@ -368,12 +368,14 @@ body {
 
 .navbar .navbar-brand {
   font-size: 1em;
-  margin-left: 5px;
+  margin-left: 10px;
+  font-weight: 500;
 }
 
 .navbar .navbar-toggle {
   margin-right: 20px;
 }
+
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -393,17 +395,19 @@ body {
 
     .navbar .langButtons {
       float: right!important;
-      left: auto;
+      font-size: 16px;
     }
+  }
+
+  .langButtons {
+  margin-left: 10px;
+}
+
 
 
 .navbar {
     text-transform: none;
     font-weight: 700;
-}
-
-.langButtons {
-  margin-left: 5px;
 }
 
 .navbar a:focus {
@@ -425,7 +429,7 @@ body {
 }
 
 .module-row {
-  top: 65%;
+  top: 55%;
   bottom: auto;
   text-align: center;
 }
