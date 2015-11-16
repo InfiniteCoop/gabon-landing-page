@@ -63,6 +63,7 @@ a:focus {
 
     #intro {
         height: 100%;
+        top-margin: -30px;
     }
 
 .carousel-fade .carousel-inner .item {
@@ -114,6 +115,7 @@ a:focus {
 
   .carousel-caption {
     width: 100%;
+    top: 20%;
   }
 
   .item:nth-child(1) {
@@ -146,14 +148,11 @@ a:focus {
 
 .intro-body {
     position: relative;
-    text-align: center;
-    padding-top: 20px;
     color: #fff;
 }
 
 .flag {
-    align:right;
-    padding: 0px;
+    padding: 10px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -182,7 +181,6 @@ a:focus {
 .intro-body .intro-text {
     font-size: 24px;
     text-shadow: 1px 1px 1px #747474;
-    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -342,6 +340,7 @@ body {
 
 .btn-default {
     padding: 10px;
+    margin: 5px;
 }
 
 .btn-default:hover,
@@ -363,4 +362,58 @@ body {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.navbar .navbar-brand {
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+.navbar .navbar-toggle {
+  margin-right: 20px;
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 2em;
+        text-transform: none;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+.navbar {
+    text-transform: none;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+    color:#f0ab00;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.module-row {
+  top: 65%;
+  bottom: auto;
+  text-align: center;
 }
