@@ -4,18 +4,23 @@
         EngButton: "English",
         Title: "National Land Use Plan of Gabon",
         SubTitle: "The interactive platform",
-        Module1: "Land Use",
+        Module1: "Current land use",
         Module2: "Planning",
         Module3: "Documentation",
+        CaptionTitle1: "Current land use",        
+        Caption1: "Explore the current land allocation status in Gabon",
+        CaptionTitle2: "Planning",        
+        Caption2: "Explore potential land use scenarios and analyses, and perform custom analyses",
+        CaptionTitle3: "Documentation",        
+        Caption3: "Explore documents relating to the National Land Use Plan (e.g., government programs and projects, sector plans, maps, etc.)",
         AboutTitle: "About the Plan",
-        AboutText: "<p>The National Land Use Plan (NLUP) is a planning process used by the government to establish and communicate guidelines for the sustainable management of state land and resources. The role of the NLUP is to provide guidance and assistance to each territory, with the aim of <b>highlighting the territory's resources, minimizing the risk of conflict between incompatible uses, and optimizing opportunities.</b></p><p>The interactive platform is used by those in charge of the implementation of the NTP at the policy level, but also at the technical level. The goal of the platform is to provide an interactive tool that links different actors across geographies.</p>",
+        AboutText: "<p>The National Land Use Plan of Gabon is a legislative framework that establishes and communicates guidelines for the sustainable management of Gabonese land and resources. By <b>identifying and appraising local resources, the Plan is able to minimize the risk of land use conflicts, and maximize opportunities for efficient and sustainable multi-use extraction and development.</b></p><p>The interactive platform is used by policymakers, strategic planners, business leaders, engineers, and developers, and allows a multitude of actors to participate in the land allocation process, regardless of their geographic location.</p>",
         AppTitle: "Other applications",
         PartnerTitle: "A partnership between",
         Share: "Share this page",
         ContactUs: "Contact us",
         Contact1: "<p>Ghislain Moussavou</p><p><i>Gabon National Coordinator, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
         Contact2: "<p>Matthew Steil</p><p><i>Manager, Central Africa Forests, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>"
-
     },
     
     fr: {
@@ -26,6 +31,12 @@
         Module1: "Affectation actuelle",
         Module2: "Planification",
         Module3: "Documentation",
+        CaptionTitle1: "Affectation actuelle",        
+        Caption1: "Explorer la situation actuelle de l'affectation des terres au Gabon",
+        CaptionTitle2: "Planification",        
+        Caption2: "Explorer les analyses et scénarios d'affectation des terres potentielles, et réaliser des analyses personnalisées",
+        CaptionTitle3: "Documentation",        
+        Caption3: "Explorer les documents de référence sur le PNAT (programmes et projets gouvernementaux, plans sectoriels, cartothèque, etc.)",       
         AboutTitle: "A Propos le Plan",
         AboutText: "<p>Le PNAT est un processus de planification par lequel le gouvernement établit et véhicule ses orientations en matière de gestion rationnelle des terres et des ressources du domaine de l’Etat. Le rôle du PNAT est d’adresser une orientation à chaque zone du territoire correspondant à une ou plusieurs activités, dans l’objectif <b>de mettre en valeur les ressources du territoire, de minimiser le risque de conflit entre les usages incompatibles, et d’optimiser les opportunités en termes d’usages multiples et compatibles.</b></p><p>La plateforme web interactive PNAT est l’outil de travail quotidien des personnes en charge de la mise en œuvre du PNAT au niveau décisionnel, politique et stratégique mais aussi au niveau technique. L’objectif est qu’elle soit un outil d’interaction entre les différents acteurs du PNAT quel que soit leur localisation géographique.</p>",
         AppTitle: "Autres applications",
@@ -75,8 +86,8 @@ var apps = {
     },
     forestAtlas: {
         href: "http://gab.atlas-forestier.org/",
-        src: "img/logo/forestAtlas-logo-bw.png",
-        srcActive: "img/logo/forestAtlas-logo.png",
+        src: "img/logo/forestatlas-logo-bw.png",
+        srcActive: "img/logo/forestatlas-logo.png",
         alt: "Atlas Forestier"
     },
     gfw: {

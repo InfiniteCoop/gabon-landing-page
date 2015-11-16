@@ -7,9 +7,9 @@ function iconHover() {
 	var link2 = document.getElementById("planLink");
 	var link3 = document.getElementById("docsLink");
 
-	if (!("ontouchstart" in document.documentElement) && 
-		! (navigator.maxTouchPoints > 0) &&
-		! (navigator.msMaxTouchPoints > 0) ){
+	// if (!("ontouchstart" in document.documentElement) && 
+	// 	! (navigator.maxTouchPoints > 0) &&
+	// 	! (navigator.msMaxTouchPoints > 0) ){
 
 	link1.addEventListener("mouseover", function(){
 		image1.src="img/map-icon-active.svg";}, false);
@@ -22,8 +22,7 @@ function iconHover() {
 	link3.addEventListener("mouseover", function(){
 		image3.src="img/docs-icon-active.svg";}, false);
 	link3.addEventListener("mouseout", function(){
-		image3.src="img/docs-icon.svg";}, false);
-	};   
+		image3.src="img/docs-icon.svg";}, false); 
 };
 
 //Set language and update URL hash
@@ -155,3 +154,7 @@ window.addEventListener("DOMContentLoaded", function() {
 }, false);
 
 SocialShareKit.init();
+
+$('.carousel').carousel({
+	interval: 3000
+});
