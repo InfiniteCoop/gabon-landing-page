@@ -1,1 +1,1 @@
-# Gabon PNAT and ANPN Landing Pages
+# Gabon PNAT Landing Page
