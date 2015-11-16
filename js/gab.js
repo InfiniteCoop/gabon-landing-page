@@ -2,7 +2,7 @@
     en: {
         FrButton: "Français",
         EngButton: "English",
-        Title: "National Land Use Plan",
+        Title: "National Land Use Plan of Gabon",
         // SubTitle: "The interactive platform",
         Module1: "Current land use",
         Module2: "Planning",
@@ -26,7 +26,7 @@
     fr: {
         FrButton: "Français",
         EngButton: "English",        
-        Title: "Plan National d'Affectation des Terres",
+        Title: "Plan National d'Affectation des Terres du Gabon",
         // SubTitle: "La plate-forme interactive",
         Module1: "Affectation actuelle",
         Module2: "Planification",
