@@ -118,6 +118,15 @@ a:focus {
     top: 20%;
   }
 
+  .caption-container {
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255,255,255,0.7);
+}
+
+
   .item:nth-child(1) {
       background-image: url(../img/title-bg.jpg);
   }
@@ -149,17 +158,6 @@ a:focus {
 .intro-body {
     position: relative;
     color: #fff;
-}
-
-.flag {
-    padding: 10px;
-    margin: 0px 0px 0px 0px;
-}
-
-@media(max-width:767px) {
-    .flag {
-        display: none;
-    }
 }
 
 .language-menu {
@@ -367,9 +365,14 @@ body {
 }
 
 .navbar .navbar-brand {
+    color: #3a75c4;
   font-size: 1em;
   margin-left: 10px;
   font-weight: 500;
+}
+
+.navbar .navbar-default .navbar-brand {
+  color: #3a75c4;
 }
 
 .navbar .navbar-toggle {
@@ -386,6 +389,7 @@ body {
     }
 
     .navbar .navbar-brand {
+        color: #3a75c4;
         font-size: 2em;
         text-transform: none;
         -webkit-transition: all .3s;
@@ -402,8 +406,6 @@ body {
   .langButtons {
   margin-left: 10px;
 }
-
-
 
 .navbar {
     text-transform: none;
@@ -434,9 +436,22 @@ body {
   text-align: center;
 }
 
-.caption-container {
-  display: inline-block;
-  width: 50%;
-  height: auto;
-  background-color: rgba(255,255,255,0.6);
+@media (max-width: 991px) {
+  .flag {
+    display: none; 
+  }
+}
+
+.flag {
+  max-height:50px;
+  margin-top: auto;
+  padding-right: 15px;
+}
+
+.appIcon {
+  padding: 0px 30px;
+}
+
+.partnerIcon {
+  padding: 0px 60px;
 }
