@@ -116,9 +116,15 @@ a:focus {
   .carousel-caption {
     width: 50%;
     top: 20%;
-    left: 0%;
   }
 
+  .caption-container {
+  display: inline-block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: rgba(255,255,255,0.7);
+}
 
 
   .item:nth-child(1) {
@@ -401,8 +407,6 @@ body {
   margin-left: 10px;
 }
 
-
-
 .navbar {
     text-transform: none;
     font-weight: 700;
@@ -432,13 +436,6 @@ body {
   text-align: center;
 }
 
-.caption-container {
-  display: inline-block;
-  width: 50%;
-  height: auto;
-  background-color: rgba(255,255,255,0.6);
-}
-
 @media (max-width: 991px) {
   .flag {
     display: none; 
@@ -449,4 +446,12 @@ body {
   max-height:50px;
   margin-top: auto;
   padding-right: 15px;
+}
+
+.appIcon {
+  padding: 0px 30px;
+}
+
+.partnerIcon {
+  padding: 0px 60px;
 }
