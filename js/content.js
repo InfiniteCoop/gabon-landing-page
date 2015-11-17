@@ -79,7 +79,7 @@ var apps = {
         alt: "AGEOS"
     },
     climat: {
-        href: "http://www.gouvernement.ga/",
+        href: "http://www.conseilnationalclimat.ga",
         src: "img/logo/climat-logo-bw.png",
         srcActive: "img/logo/climat-logo.png",
         alt: "Climat"
