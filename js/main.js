@@ -157,5 +157,7 @@ window.addEventListener("DOMContentLoaded", function() {
 SocialShareKit.init();
 
 $('.carousel').carousel({
-	interval: 3000
+	interval: 3000,
+	pause: "false"
+
 });

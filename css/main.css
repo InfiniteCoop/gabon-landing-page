@@ -38,7 +38,7 @@ p {
     text-align: left;
 }
 
-@media(min-width:767px) {
+@media(min-width: 768px) {
     p {
         margin: 0 0 20px;
         font-size: 16px;
@@ -59,7 +59,7 @@ a:focus {
 }
 
 
-@media(min-width: 991px) {
+@media(min-width: 768px) {
 
     #intro {
         height: 100%;
@@ -116,14 +116,21 @@ a:focus {
   .carousel-caption {
     width: 50%;
     top: 20%;
+    left: 19%
   }
 
   .caption-container {
   display: inline-block;
-  padding: 10px;
+  float: left!important;
+  padding: 0px 10px;
   width: auto;
   height: auto;
   background-color: rgba(255,255,255,0.7);
+}
+
+.caption-color {
+  color:#333;
+  text-shadow: none;
 }
 
 
@@ -186,13 +193,13 @@ a:focus {
     display: none;
 }
 
-@media(min-width:991px) {
+@media(min-width: 992px) {
     .subtitle-text {
         display: block;
     }
 }
 
-@media(min-width:767px) {
+@media(min-width: 768px) {
 
     .intro .intro-body .intro-text {
         font-size: 22px;
@@ -206,7 +213,7 @@ a:focus {
     padding: 10px 80px 0px 80px;
 }
 
-@media(min-width: 991px) {
+@media(min-width: 992px) {
     .module-icon {
         padding: 10px 100px;
     }
@@ -248,7 +255,7 @@ a:focus {
     padding: 20px 0px;
 }   
 
-@media(min-width: 767px) {
+@media(min-width: 768px) {
 
         .content-section {
         padding-top: 20px;
@@ -264,7 +271,7 @@ a:focus {
     display: none;
 }
 
-@media(min-width:767px) {
+@media(min-width: 768px) {
     .inactive {
         display: block;
     }
@@ -322,7 +329,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-@media(min-width:768px) {
+@media(min-width: 768px) {
 .btn {
     text-transform: uppercase;
     font-family: "Fira Sans",Helvetica,sans-serif;
@@ -380,7 +387,7 @@ body {
 }
 
 
-@media(min-width:768px) {
+@media(min-width: 768px) {
     .navbar-fixed-top {
         padding: 10px 0;
         -webkit-transition: padding .3s;
@@ -431,7 +438,7 @@ body {
 }
 
 .module-row {
-  top: 55%;
+  top: 50%;
   bottom: auto;
   text-align: center;
 }
