@@ -116,7 +116,10 @@ a:focus {
   .carousel-caption {
     width: 50%;
     top: 20%;
+    left: 0%;
   }
+
+
 
   .item:nth-child(1) {
       background-image: url(../img/title-bg.jpg);
@@ -149,17 +152,6 @@ a:focus {
 .intro-body {
     position: relative;
     color: #fff;
-}
-
-.flag {
-    padding: 10px;
-    margin: 0px 0px 0px 0px;
-}
-
-@media(max-width:767px) {
-    .flag {
-        display: none;
-    }
 }
 
 .language-menu {
@@ -367,9 +359,14 @@ body {
 }
 
 .navbar .navbar-brand {
+    color: #3a75c4;
   font-size: 1em;
   margin-left: 10px;
   font-weight: 500;
+}
+
+.navbar .navbar-default .navbar-brand {
+  color: #3a75c4;
 }
 
 .navbar .navbar-toggle {
@@ -386,6 +383,7 @@ body {
     }
 
     .navbar .navbar-brand {
+        color: #3a75c4;
         font-size: 2em;
         text-transform: none;
         -webkit-transition: all .3s;
@@ -439,4 +437,16 @@ body {
   width: 50%;
   height: auto;
   background-color: rgba(255,255,255,0.6);
+}
+
+@media (max-width: 991px) {
+  .flag {
+    display: none; 
+  }
+}
+
+.flag {
+  max-height:50px;
+  margin-top: auto;
+  padding-right: 15px;
 }
