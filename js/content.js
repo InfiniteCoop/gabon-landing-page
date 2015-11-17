@@ -37,7 +37,7 @@
         Caption2: "Explorer les analyses et scénarios d'affectation des terres potentielles, et réaliser des analyses personnalisées",
         CaptionTitle3: "Documentation",        
         Caption3: "Explorer les documents de référence sur le PNAT (programmes et projets gouvernementaux, plans sectoriels, cartothèque, etc.)",       
-        AboutTitle: "A Propos du Plan",
+        AboutTitle: "A Propos du PNAT",
         AboutText: "<p>Le PNAT est un processus de planification par lequel le gouvernement établit et véhicule ses orientations en matière de gestion rationnelle des terres et des ressources du domaine de l’Etat. Le rôle du PNAT est d’adresser une orientation à chaque zone du territoire correspondant à une ou plusieurs activités, dans l’objectif <b>de mettre en valeur les ressources du territoire, de minimiser le risque de conflit entre les usages incompatibles, et d’optimiser les opportunités en termes d’usages multiples et compatibles.</b></p><p>La plateforme web interactive PNAT est l’outil de travail quotidien des personnes en charge de la mise en œuvre du PNAT au niveau décisionnel, politique et stratégique mais aussi au niveau technique. L’objectif est qu’elle soit un outil d’interaction entre les différents acteurs du PNAT quel que soit leur localisation géographique.</p>",
         AppTitle: "Autres applications",
         PartnerTitle: "Un partenariat entre",
