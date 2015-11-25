@@ -363,10 +363,11 @@ body {
 }
 
 .navbar .navbar-brand {
-    color: #3a75c4;
+  color: #3a75c4;
   margin-left: 10px;
   font-weight: 500;
   position: relative;
+  font-size: 1em;
 }
 
 .navbar-subtitle {
@@ -379,7 +380,6 @@ body {
 
 @media(min-width: 992px) {
   .navbar-brand {
-    font-size: 1em;
     padding: 5px 10px;
   }
 
