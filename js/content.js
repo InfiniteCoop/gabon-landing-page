@@ -3,7 +3,7 @@
         FrButton: "Français",
         EngButton: "English",
         Title: "National Land Use Plan",
-        // SubTitle: "The interactive platform",
+        Subtitle: "The interactive platform",
         Module1: "Current land use",
         Module2: "Planning",
         Module3: "Documentation",
@@ -27,7 +27,7 @@
         FrButton: "Français",
         EngButton: "English",        
         Title: "Plan National d'Affectation des Terres",
-        // SubTitle: "La plate-forme interactive",
+        Subtitle: "La plate-forme interactive",
         Module1: "Affectation actuelle",
         Module2: "Planification",
         Module3: "Documentation",
@@ -46,15 +46,6 @@
         Contact1: "<p>Ghislain Moussavou</p><p><i>Coordinateur National du Gabon, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
         Contact2: "<p>Matthew Steil</p><p><i>Gestionnaire, Forêts d'Afrique Centrale, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>"
     }
-}
-
-var flag = {
-    href: "http://www.eaux-forets.gouv.ga/",
-    src: "img/flag/flag-gab.png",
-}
-
-var bcgImage = {
-    src: "url(img/title-bg.jpg) no-repeat center center scroll"
 }
 
 var link = {
