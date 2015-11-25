@@ -62,28 +62,6 @@ function loadLanguage() {
 	}
 }
 
-//Generate flag link/image from country JS file
-function generateFlag() {
-
-	var flagContainer = document.getElementById('flag');
-
-	var newLink = document.createElement('a');
-	var newImg = document.createElement('img');
-
-	newLink.href = flag["href"];
-	newImg.setAttribute('src',flag["src"]);
-	newImg.className += " img-responsive";
-
-	newLink.appendChild(newImg);
-	flagContainer.appendChild(newLink);
-}
-
-//Generate background image from country JS file
-function generateBcgImg() {
-document.getElementById('intro').style.background = bcgImage["src"];
-}
-
-
 //Generate sponsor logos from country JS file
 function generateAppLogos() {
 
@@ -147,8 +125,6 @@ function generatePartnerLogos() {
 
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
-	// generateFlag();
-	generateBcgImg();
 	iconHover();
 	generateAppLogos();
 	generatePartnerLogos();
