@@ -87,6 +87,12 @@ var apps = {
         srcActive: "img/logo/forestatlas-logo.png",
         alt: "Atlas Forestier"
     },
+	siap: {
+        href: "http://anpnsig.ga/",
+        src: "img/logo/forestatlas-logo-bw.png",
+        srcActive: "img/logo/forestatlas-logo.png",
+        alt: "SIAP ANPN"
+	},
     gfw: {
         href: "http://globalforestwatch.org/",
         src: "img/logo/gfw-logo-bw.png",
