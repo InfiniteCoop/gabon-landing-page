@@ -21,7 +21,7 @@
         ContactUs: "Contact us",
         Contact1: "<p>Ghislain Moussavou</p><p><i>Gabon National Coordinator, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
         Contact2: "<p>Matthew Steil</p><p><i>Manager, Central Africa Forests, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>",
-        Contact3: "<p>John Doe</p><p><i>Occupation</i></p><p><a href='mailto:email@email.com'>email@email.com</a></p>",
+        Contact3: "<p>Judy MAMBELA</p><p><i>Occupation</i></p><p><a href='mailto:email@email.com'>email@email.com</a></p>",
         Contact4: "<p>John Doe</p><p><i>Occupation</i></p><p><a href='mailto:email@email.com'>email@email.com</a></p>"
 
     },
