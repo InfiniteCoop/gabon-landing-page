@@ -60,14 +60,14 @@ var bcgImage = {
 var link = {
     en: {
         mapLink: "http://ageos.maps.arcgis.com/apps/webappviewer/index.html?id=4ed40a5be5114b758cc88eb2f505cecc",
-        planLink: "http://ageos.maps.arcgis.com/apps/OnePane/storytelling_basic/index.html?appid=80a8f615fba740a9a0bfdc822637ca6b",
-        docsLink: "http://ageos.maps.arcgis.com/apps/MapJournal/index.html?appid=d3f4bf5903a545de9ebe20314cfb9332"
+        planLink: "#"//"http://ageos.maps.arcgis.com/apps/OnePane/storytelling_basic/index.html?appid=80a8f615fba740a9a0bfdc822637ca6b",
+        docsLink: "#"//"http://ageos.maps.arcgis.com/apps/MapJournal/index.html?appid=d3f4bf5903a545de9ebe20314cfb9332"
 
     },
     fr: {
         mapLink: "http://ageos.maps.arcgis.com/apps/webappviewer/index.html?id=4ed40a5be5114b758cc88eb2f505cecc",
-        planLink: "http://ageos.maps.arcgis.com/apps/OnePane/storytelling_basic/index.html?appid=80a8f615fba740a9a0bfdc822637ca6b",
-        docsLink: "http://ageos.maps.arcgis.com/apps/MapJournal/index.html?appid=d3f4bf5903a545de9ebe20314cfb9332"
+        planLink: "#"//"http://ageos.maps.arcgis.com/apps/OnePane/storytelling_basic/index.html?appid=80a8f615fba740a9a0bfdc822637ca6b",
+        docsLink: "#"//"http://ageos.maps.arcgis.com/apps/MapJournal/index.html?appid=d3f4bf5903a545de9ebe20314cfb9332"
     }
 }
 
