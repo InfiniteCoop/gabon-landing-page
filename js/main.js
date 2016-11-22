@@ -15,12 +15,28 @@ function iconHover() {
 		image1.src="img/map-icon-active.svg";}, false);
 	link1.addEventListener("mouseout", function(){
 		image1.src="img/map-icon.svg";}, false);
+	
 	link2.addEventListener("mouseover", function(){
-		image2.src="img/plan-icon-active.svg";}, false);
+		if (window.location.hash == "#l=en") {
+			image2.src="img/coming-soon-icon.svg";
+		}
+		else {
+			image2.src="img/a-venir-icon.svg"
+		}
+	}, false);
+		//image2.src="img/plan-icon-active.svg";}, false);
 	link2.addEventListener("mouseout", function(){
 		image2.src="img/plan-icon.svg";}, false);
+	
 	link3.addEventListener("mouseover", function(){
-		image3.src="img/docs-icon-active.svg";}, false);
+		if (window.location.hash == "#l=en") {
+			image3.src="img/coming-soon-icon.svg";
+		}
+		else {
+			image3.src="img/a-venir-icon.svg"
+		}
+	}, false);
+		//image3.src="img/docs-icon-active.svg";}, false);
 	link3.addEventListener("mouseout", function(){
 		image3.src="img/docs-icon.svg";}, false); 
 };
